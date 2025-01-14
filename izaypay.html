@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iZyPay Digital Solutions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #f4f4f4;
+            color: white;
+            padding: 0px;
+            text-align: center;
+        }
+        .heading{
+            background-color: #00549F;
+            padding: 0.5px;
+            color: white; 
+            text-align: center;
+            font-weight: bold;
+        }
+        nav {
+            background-color: #4CAF50;
+            padding: 10px;
+            text-align: center;
+        }
+        .caption{
+            background-color: #f80b0b;
+            padding: 1px;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+       /*.container {
+            padding: 20px;
+       }*/
+        section {
+            margin: 20px auto;
+            max-width: 1000px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            /*position: fixed;
+            bottom: 0;
+            width: 100%;*/
+        }
+        .signup-button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .signup-form {
+            display: none;
+            margin-top: 20px;
+        }
+        .signup-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .signup-form input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .signup-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        function toggleSignupForm() {
+            const form = document.getElementById('signup-form');
+            form.style.display = form.style.display === 'none' || form.style.display === '' ? 'block' : 'none';
+        }
+    </script>
+    </style>
+</head>
+<body>
+    <header>
+        <img src ="iZypay1.2.png"alt="iZaypay Image" height=150px widht=100px>    
+    </header>
+    <div class="heading">
+    <h1>iZyPay Digital Solutions</h1>
+      </div>
+    <div class="caption"> 
+        <p>Anytime, Anywhere!</p>
+    </div>
+   
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#solutions">Solutions</a>
+            <a href="#transfer">Indo-Nepal Transfer</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+        <section id="home">
+            <h2>Welcome to iZyPay Digital Solutions</h2>
+            <p>Your trusted partner for seamless digital payment solutions and financial services Anytime, Anywhere!. Explore our services and see how we can assist you.</p>
+            <button class="signup-button" onclick="window.open('https://forms.gle/1AtJkciJF6J8BMwi6', '_blank')">Sign Up</button>
+            <!--<div id="signup-form" class="signup-form">
+                <h3>Sign Up</h3>
+                    <form action="send_mail.php" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="email">Mail ID:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" required>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>-->
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to iZyPay digital Solutions, your trusted partner in seamless money transfers and digital payment solutions as a part of Digital India. iZyPay leverages the technology to promote the true to the vision of Prime Minister Modi - “Say Yes to Digital Payments, No to Cash”.</p>
+               <p> At iZyPay, we believe in simplifying the way people and businesses handle their finances. Our mission is to provide a fast, secure, and reliable platform that empowers individuals and organizations to transfer money and make payments globally, anytime and anywhere.</p>
+                <p>As part of its goal to provide digital economy solutions to the millions Indians and to developing markets worldwide, iZyPay is aimed to continuously growing its portfolio of financial services across the globe.</p>
+            <h2>Our Vision</h2>
+            <p>We aim to bridge the gap between people and financial freedom by making digital payments and money transfer accessible, affordable, and secure for everyone by replacing the traditional banking.</p>
+           <h3>Why We?</h3>
+           <p>•	Speed and Efficiency: Send and receive money in real-time with our cutting-edge technology in the comfort of your home.</p>
+            <p>•	Pay in cash: We also accept cash payment from you for any payments and money transfer.</p>
+            <p>•	Global Reach: With access to a vast network of countries and currencies, we are aiming to make international transactions effortless.</p>
+           <p> •	Security First: Our platform uses API from a trusted partner who adopts the advanced encryption and fraud prevention measures to ensure your money is safe.</p>
+            <p>•	User-Friendly Interface: Whether you're sending money to loved ones or managing business payments, our intuitive platform makes it easy.</p>
+        </section>
+
+
+        <section id="solutions">
+            <h2>Our Solutions</h2>
+            <p> -	Domestic Money Transfer (DMT)
+                Simplified solution to transfer money within the same country, enabling quick and secure transactions to bank accounts or mobile wallets.</p>
+                
+                <p>-	Aadhaar Enabled Payment System (AEPS)
+                Secured bank transaction services like cash withdrawal, balance inquiry, and money transfers using an individual's Aadhaar number and biometric authentication. </p>
+                
+               <p> -	Bharat Bill Payments System (BBPS)
+                A unified platform operated by NPCI that simplifies bill payments for utilities, telecom, insurance, and more, offering a secure and seamless experience.</p>
+                
+                <p>-	Payment Gateway for Credit Cards
+                Secured digital infrastructure that facilitates seamless processing of credit card transactions for online and offline payments.</p>
+                
+               <p> -	Cash Management Services (CMS)
+                Offering an efficient and secured automated solutions for managing their cash flow, including collections, payments, and liquidity optimization.</p>
+                
+               <p> -	QR based Static Payment
+                A simple and cost-effective solution for secured and cashless payments through a static QR code.</p>
+                
+                <p>-	Indo-Nepal Transfer
+                A seamless cross-border money transfer service that enables individuals to send funds between India and Nepal with ease. This service leverages digital platforms and trusted banking networks to provide fast, secure, and cost-effective remittances for both personal and business transactions.</p>
+                
+                <p>-	Travel bookings
+                Reserving of flights, hotels, and other travel services online, offering convenience and flexibility in payments.</p>
+                
+        </section>
+
+        <section id="transfer">
+            <h2>Indo-Nepal Transfer</h2>
+            <p>Facilitating fast and secure money transfers between India and Nepal. With competitive rates and reliable service, we make cross-border transactions effortless.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Address: xxxxxxx</p>
+               <p> Mail ID: xxxx</p>
+                <p>Contact Number: </p>
+                
+        </section>
+        <footer>
+            <p>&copy; 2025 iZyPay Digital Solutions. All rights reserved.</p>
+        </footer>  
+</body>
+</html>
